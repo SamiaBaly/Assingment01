@@ -4,12 +4,14 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
+
+/*---------- Navigation-bar-design-------------- */
 header{
   width: 100%;
   padding: 16px 0px;
-  
-  
 }
+
 header nav{
   max-width: 1360px;
   /* background-color: yellow; */
@@ -17,22 +19,27 @@ header nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
+
 nav .menu{
   
 }
+
 nav .menu ul{
   list-style: none;
   display: flex;
 }
+
 nav .menu ul li{
   margin-right: 32px;
 }
+
 nav .menu ul li a{
   text-decoration: none;
   font-size: 16px;
 }
+
+/*---------- common-section-design-------------- */
 .btn{
   background-color: #469165;
   color: white;
@@ -42,6 +49,7 @@ nav .menu ul li a{
   border-radius: 5px;
   cursor: pointer;
 }
+
 .btn:hover{
   background-color: #287d4b;
 }
@@ -51,13 +59,18 @@ nav .menu ul li a{
   border: 1px solid white;
   margin-left: 16px;
 }
+
 .btn2:hover{
   background: white;
   color: gray;
 }
+
 .fa-solid{
   margin: 0 10px;
 }
+
+
+/*---------- hero-section-design-------------- */
 #hero{
   background-image:url(../assets/hero-bg.png);
   background-size: cover;
@@ -65,6 +78,7 @@ nav .menu ul li a{
   text-align: center;
   padding: 115px 0px 180px;
 }
+
 #hero .hero-content{
   max-width: 1360px;
   /* border: 1px solid white; */
@@ -80,17 +94,20 @@ nav .menu ul li a{
   margin: 0 auto;
   padding: 8px 15px;
 }
+
 #hero .hero-content .top-button img{
   max-width: 16px;
   height: 16px;
   margin-right: 6px;
   margin-top: 4px;
 }
+
 #hero .hero-content .top-button ul{
   list-style: none;
   font-size: 16px;
   color: #469165;
 }
+
 #hero .hero-content h1{
   max-width: 800px;
   font-size: 65px;
@@ -98,41 +115,51 @@ nav .menu ul li a{
   padding: 16px 0px;
   color: white;
 }
+
 #hero .hero-content span{
   color: #469165;
 }
+
 #hero .hero-content p{
   font-size: 16px;
   color: white;
   line-height: 24px;
   margin-bottom: 32px;
 }
+
+
+
+/*---------- notes-section-design-------------- */
 #notes {
   width: 100%;
   /* background-color: #f7f7f6; */
   /* margin-top: 0px; */
-
 }
+
 #notes .notes-content{
   width: 1360px;
   /* border: 1px solid white; */
   margin: 0 auto;
   text-align: center;
 }
+
 #notes .notes-content .notes-text{
   /* border: 1px solid white; */
 }
+
 #notes .notes-content .notes-text h1{
   margin-top: 60px;
   font-size: 48px;
   font-weight: bold;
   color: #001931;
 }
+
 #notes .notes-content p{
   font-size: 16px;
   color: #627382;
   line-height: 20px;
 }
+
 #notes .notes-card{
   display: flex;
   justify-content: space-between;
@@ -140,27 +167,35 @@ nav .menu ul li a{
   gap: 24px;
   margin-top: 44px;
 }
+
 #notes .notes-card .card{
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.21);
   padding: 60px 24px;
 }
+
 #notes .notes-card .card img{
   background-color: #F95555;
   padding: 14px;
   border-radius: 50%;
 }
+
 #notes .notes-card .card h3{
   font-size: 24px;
   font-weight: 600;
   margin:16px 0 ;
 }
+
+
+
+/*---------- brain-section-design-------------- */
 #brain{
   width: 100%;
   /* background-color: red; */
   padding: 120px;
 }
+
 #brain .brain-content{
   max-width: 1360px;
   /* border: 1px solid white; */
@@ -170,44 +205,57 @@ nav .menu ul li a{
   gap: 60px;
   align-items: center;
 }
+
 #brain .brain-content .image img{
   vertical-align: middle;
 }
+
 #brain .brain-content .text .main-text{
   /* border: 1px solid white; */
   margin-bottom: 40px;
 }
+
 #brain .brain-content .text .main-text .top{
   font-size: 16px;
   color: #469165;
   text-transform: uppercase;
   font-weight: 500;
 }
+
 #brain .brain-content .text .main-text h1{
   font-size: 48px;
   font-weight: bold;
   padding: 16px 0;
   color: #001931;
 }
+
 #brain .brain-content .text .main-text p{
   font-size: 16px;
   color: #627382;
   line-height: 26px;
 }
+
 #brain .brain-content .list-text{
   /* border: 1px solid white; */
 }
+
 #brain .brain-content .list-text .list{
   display: flex;
   gap: 6px;
   margin-bottom: 16px;
   color: #001931;
 }
+
+
+
+/*---------- Access-section-design-------------- */
+
 #access{
   width: 100%;
   /* background-color: red; */
   padding: 120px;
 }
+
 #access .access-content{
   width: 1360px;
   background-color: #F7F6F2;
@@ -216,27 +264,34 @@ nav .menu ul li a{
   padding: 80px 40px;
   border-radius: 10px;
 }
+
 #access .access-content h1{
   font-size: 40px;
   font-weight: bold;
   color: #001931;
   margin-bottom: 16px;
 }
+
 #access .access-content p{
   font-size: 16px;
   line-height: 24px;
   color: #627382;
   margin-bottom: 24px;
 }
+
 #access .access-content .s-text{
   margin-top: 16px;
 }
+
+
+/*---------- footer-section-design-------------- */
 footer{
   width: 100%;
   background-color: #001931;
   padding: 130px 130px 30px 130px;
   text-align: center;
 }
+
 footer .content{
   width: 1360px;
   margin: 0 auto;
@@ -246,16 +301,19 @@ footer .content{
   padding-bottom: 80px;
   border-bottom: 1px solid #627382;
 }
+
 footer .content .link-side{
   /* border: 1px solid white; */
   padding-right: 107px;
 }
+
 footer .content .link-side h4{
   font-size: 20px;
   font-weight: 500;
   color: white;
   margin-bottom: 16px;
 }
+
 footer .content .link-side .links{
   /* text-align: center; */
   /* border: 1px solid white; */
@@ -263,10 +321,12 @@ footer .content .link-side .links{
   justify-content: space-between;
   gap:6px;
 }
+
 footer .content .link-side .links i{
  font-size: 30px;
  color: white;
 }
+
 footer p{
   font-size: 16px;
   margin-top: 16px;
