@@ -59,7 +59,7 @@ nav .menu ul li a{
   margin: 0 10px;
 }
 #hero{
-  background-image: url(../assets/hero-bg.png);
+  background-image:url(../assets/hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -108,7 +108,9 @@ nav .menu ul li a{
   margin-bottom: 32px;
 }
 #notes {
-  /* background-color: red; */
+  width: 100%;
+  /* background-color: #f7f7f6; */
+  /* margin-top: 0px; */
 
 }
 #notes .notes-content{
@@ -201,3 +203,73 @@ nav .menu ul li a{
   margin-bottom: 16px;
   color: #001931;
 }
+#access{
+  width: 100%;
+  /* background-color: red; */
+  padding: 120px;
+}
+#access .access-content{
+  width: 1360px;
+  background-color: #F7F6F2;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 40px;
+  border-radius: 10px;
+}
+#access .access-content h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+#access .access-content p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+#access .access-content .s-text{
+  margin-top: 16px;
+}
+footer{
+  width: 100%;
+  background-color: #001931;
+  padding: 130px 130px 30px 130px;
+  text-align: center;
+}
+footer .content{
+  width: 1360px;
+  margin: 0 auto;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #627382;
+}
+footer .content .link-side{
+  /* border: 1px solid white; */
+  padding-right: 107px;
+}
+footer .content .link-side h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 16px;
+}
+footer .content .link-side .links{
+  /* text-align: center; */
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  gap:6px;
+}
+footer .content .link-side .links i{
+ font-size: 30px;
+ color: white;
+}
+footer p{
+  font-size: 16px;
+  margin-top: 16px;
+  color: #c0ccd7;
+}
+
